@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/icons/brand.svg" className="rounded-full" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- Google fonts Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+
+    <title>Zeitplan</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/icons/brand.svg" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Fitur-Fitur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">Harga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact">Contact</a>
+            </li>
+
+            <a href="" class="btn btn-transparents tombol">Download <img src="images/icons/arrow-right.svg" alt="" /></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="display-4">Sebuah cara mudah mengatur jadwal kuliah kamu</h1>
+            <p class="lead">Datang kuliah terlambat karena ketiduran itu tidak masalah; datang kuliah karena lupa jadwal itu sangatlah tidak keren. Aplikasi ini adalah sahabat kamu sekarang, brodie~</p>
+            <a href="" class="btn btn-transparents tombol">Learn more</a>
+            <a href="" class="btn btn-transparents tomboll">Play Demo</a>
+
+            <!-- <a href="" class="btn btn-transparents tomboll">Play Demo</a> -->
+          </div>
+          <div class="col-lg-6">
+            <img src="images/Bg/banner-illustration.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Hero Section -->
+
+    <!-- Section Articles -->
+
+    <div class="articles" id="articles">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h2>Kenapa Kamu Sangat Harus Pakai Aplikasi Yang Keren Ini?</h2>
+            <p>Sejujurnya aplikasi kita ini seringkali bermasalah. Kadang-kadang gak bisa submit data, kadang dibukanya lambat, kadang tiba-tiba logout sendiri, untung gak berdua.</p>
+
+            <div class="data-download">
+              <div class="data">
+                <p>TOTAL DOWNLOAD</p>
+                <h4>1,501,234</h4>
+              </div>
+
+              <div class="data-2">
+                <p>TOTAL USERS</p>
+                <h4>1,318,829</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row">
+              <div class="col-lg-6 mb-4">
+                <div class="card">
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div class="card-body">
+                    <div class="header">
+                      <img src="images/icons/database.svg" alt="" />
+                      <h5 class="card-title">Aplikasi Gratis</h5>
+                    </div>
+                    <p class="card-text">Semua fitur di aplikasi ini adalah gratis, tapi data privasi kamu akan kami jual ke agen khusus US.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card">
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div class="card-body">
+                    <div class="header">
+                      <img src="images/icons/wifi-off.svg" alt="" />
+                      <h5 class="card-title">Kode OTP Error</h5>
+                    </div>
+                    <p class="card-text">Pas login kode OTP lo gak kekirim kadang, terus lo harus nyoba berulang kali sampe bisa.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card">
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div class="card-body">
+                    <div class="header">
+                      <img src="images/icons/user.svg" alt="" />
+                      <h5 class="card-title">Data Tidak Aman</h5>
+                    </div>
+                    <p class="card-text">Data tidak disimpan dengan baik dan rentan bocor, jangan heran data lo tiba-tiba ada di deepweb.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <div class="card">
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div class="card-body">
+                    <div class="header">
+                      <img src="images/icons/code.svg" alt="" />
+                      <h5 class="card-title">Biasanya Error</h5>
+                    </div>
+                    <p class="card-text">Ketika submit data biasanya error di bagian ajax-nya, eh nggak deng itu aplikasi pemerintah~</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Section Articles -->
+
+    <!-- Section Fitur -->
+    <div class="features" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/feature.svg" class="gambar" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <h2>Memangnya ada fitur apa aja sih di aplikasi yang katanya keren ini? Jadi penasaran nich~</h2>
+            <p>Aplikasi sekeren ini akan membuat kamu tidak dapat memberi alasan apapun untuk bolos matkul dosen (HAHA MAMPUS!). Lagian lo kuliah tapi jarang masuk, titip absen doang!</p>
+            <div class="row">
+              <div class="col-lg-6 mb-2">
+                <div class="card" style="width: 100%">
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div class="card-body">
+                    <div class="header">
+                      <img src="images/icons/cloud-off.svg" alt="" />
+                      <h5 class="card-title">Tidak Tersimpan Otomatis</h5>
+                    </div>
+                    <p class="card-text">Kalo lo pelupa ya udah dah, jadwal lo bakal gak kesimpen tuh.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-2">
+                <div class="card" style="width: 100%">
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div class="card-body">
+                    <div class="header">
+                      <img src="images/icons/video.svg" alt="" />
+                      <h5 class="card-title">Ngga Ada Tutorial</h5>
+                    </div>
+                    <p class="card-text">Jangan ngarep ada tutorial. Ribet bikinnya, perlu banyak effort.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-2">
+                <div class="card" style="width: 100%">
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div class="card-body">
+                    <div class="header">
+                      <img src="images/icons/trash-2.svg" alt="" />
+                      <h5 class="card-title">Terhapus Otomatis</h5>
+                    </div>
+                    <p class="card-text">Data lo bakal kehapus otomatis tiap hari, biar hemat server kita.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 mb-2">
+                <div class="card" style="width: 100%">
+                  <!-- <img src="..." class="card-img-top" alt="..." /> -->
+                  <div class="card-body">
+                    <div class="header">
+                      <img src="images/icons/bell.svg" alt="" />
+                      <h5 class="card-title">Notifikasi Kadang Telat</h5>
+                    </div>
+                    <p class="card-text">Buat fitur notifikasi susah Brodie. Jadi ya sorry banyak bugnya.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Section Fitur -->
+
+    <!-- Section Price -->
+    <div class="price" id="price">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col">
+            <h2>
+              Main catur sambil bersepeda, beda <br />
+              fitur beda harga
+            </h2>
+            <p>Aplikasi ini gratis sebenernya, brodie. Tapi kalo mau bayar gapapa juga sih, untuk gantinya kami kasih fitur yang spesial buat kamu!</p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-4 mb-5">
+            <div class="card" style="width: 100%">
+              <div class="card-body">
+                <h6 class="card-title">RAKYAT JELATA</h6>
+
+                <h3>Free</h3>
+                <p class="card-text">Akses ke semua fitur gratis tapi data lo dijual ke agen khusus US.</p>
+
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Jadwal Tak Terbatas</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>itur Notifikasi (Kadang Telat)</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Mode Gelap</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Bisa Topup Pulsa</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Bisa Beli Token Listrik</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Data Lo Dijual</p>
+                  </div>
+                </div>
+
+                <a href="#" class="btn btn-transparents tombol">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card" style="width: 100%">
+              <div class="card-body">
+                <h6 class="card-title">SULTAN</h6>
+
+                <h3>Rp.100K</h3>
+                <p class="card-text">Akses ke semua fitur gratis tapi data lo dijual ke agen khusus US.</p>
+
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Jadwal Tak Terbatas</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>itur Notifikasi (Kadang Telat)</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Mode Gelap</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Bisa Topup Pulsa</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Bisa Beli Token Listrik</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Data Lo Dijual</p>
+                  </div>
+                </div>
+
+                <a href="#" class="btn btn-transparents tombol">Download</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card" style="width: 100%">
+              <div class="card-body">
+                <h6 class="card-title">RAFATHAR</h6>
+
+                <h3>Rp.1M</h3>
+                <p class="card-text">Akses ke semua fitur gratis tapi data lo dijual ke agen khusus US.</p>
+
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Jadwal Tak Terbatas</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>itur Notifikasi (Kadang Telat)</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Mode Gelap</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Bisa Topup Pulsa</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Bisa Beli Token Listrik</p>
+                  </div>
+                </div>
+                <div class="list">
+                  <div class="list-items d-flex">
+                    <img src="images/icons/check.svg" alt="" />
+                    <p>Data Lo Dijual</p>
+                  </div>
+                </div>
+
+                <a href="#" class="btn btn-transparents tombol">Download</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Section Price -->
+
+    <!-- Section Testimonial  -->
+    <div class="testimonial" id="testimonial">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-12">
+            <h2>
+              Apa kata umat manusia tentang <br />
+              aplikasi keren ini
+            </h2>
+            <p class="text-descriptions">
+              Kami tidak mefilter semua review, males soalnya. jadi <br />
+              semua yang di tampilkan di sini semuanya asli tanpa rekayasa.
+            </p>
+          </div>
+        </div>
+        <div class="swiper">
+          <div class="container swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="Images/Bg/WhatsApp Image 2022-04-01 at 09.45.18.jpeg" class="rounded-circle" alt="..." width="60" />
+                  <div class="card-body">
+                    <h5 class="card-title">Ervin Arviandi</h5>
+                    <p class="card-text">Frontend Developer</p>
+
+                    <figcaption>“Thanks apknya , karena aplikasi ini sy jadi rajin kuliah walaupun nggak ada adab. Adab tidak perlu kuliah nomor satu! 😎 👌”</figcaption>
+                    <div class="star">
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="Images/Testimonial/22.jpg" class="rounded-circle" width="60" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Muh Diaulhaq</h5>
+                    <p class="card-text">Fullstack Developer</p>
+                    <figcaption>“Gara-gara aplikasi ini aku tidak bisa bolos kuliah, padahal cita-citaku ingin bolos kuliah dan menitipkan absen saja. Huft. 😂❤️”</figcaption>
+                    <div class="star">
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="Images/Testimonial/33.jpg" class="rounded-circle" width="60" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Liana Andira</h5>
+                    <p class="card-text">UI/UX Designer</p>
+                    <figcaption>“Hanya di rezim ini ada aplikasi yang membuat anak saya menjadi rajin kuliah walaupun tidak menjadi pandai. 😒”</figcaption>
+                    <div class="star">
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="Images/Testimonial/44.jpg" class="rounded-circle" width="60" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Alika Septiana</h5>
+                    <p class="card-text">Frontend Developer</p>
+                    <figcaption>“Aq kmrn koq instla di hp qu gx bs y? ap krn aq pke hp miTho? admin tLonk dnk bntU instlA d hp qu, aq mw pKe apkx ✋”</figcaption>
+                    <div class="star">
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="Images/Testimonial/55.jpg" class="rounded-circle" width="60" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Ashfa Nurfaizi</h5>
+                    <p class="card-text">Frontend Developer</p>
+                    <figcaption>“penjelasannya mudah di mengerti, penyampaiannya juga enak buat di dengar. mantep dah pokoknya, keren aplikasinya👌 ”</figcaption>
+                    <div class="star">
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="Images/Testimonial/66.jpg" class="rounded-circle" width="60" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Erfan Arfianda</h5>
+                    <p class="card-text">Designer Graphics</p>
+                    <figcaption>“Keren, materi mudah di pahami, langsung praktek, makin mantep buat ngembangin skill, terimaksih zeitplan 👌❤️😊”</figcaption>
+                    <div class="star">
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked text-warning"></span>
+                      <span class="fa fa-star checked"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Section Testimonial  -->
+
+    <!-- Section Download -->
+    <div class="download" id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="box">
+              <h2>Download Aplikasi Keren Ini Sekarang!</h2>
+              <p>Please download lah aplikasi ini, udah susah-susah buat, mana pas bikin sampe begadang, terus juga ditambah weekend. Jadi, please download lah ya.</p>
+              <div class="items-download">
+                <img src="images/appstore.svg" alt="" />
+                <img src="images/playstore.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="box">
+              <div class="profile-tumbnails">
+                <img src="images/Bg/WhatsApp Image 2022-04-01 at 09.45.18.jpeg" alt="" class="rounded-circle" width="60" />
+                <h4>Ervin Arviandi</h4>
+              </div>
+              <div class="descriptions">
+                <p>Frontend Developer</p>
+              </div>
+              <div class="text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam harum necessitatibus vel iste dolor nihil nisi, eveniet aspernatur odio corporis fuga maiores atque vero omnis? Molestiae quae suscipit explicabo inventore
+                  distinctio tempora, soluta, incidunt consequuntur magni voluptates vero repudiandae dolore numquam sed deleniti laborum pariatur nisi cumque tempore repellat natus ipsa labore velit laboriosam! Quo consectetur minus in
+                  ipsum quae earum error perspiciatis autem ipsam. Cum deleniti veniam numquam fugit alias voluptate quidem delectus expedita! Consequatur laboriosam itaque mollitia distinctio!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Section Download -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="images/icons/brand.svg" alt="" />
+            <p class="text-base">
+              Sebuah aplikasi yang membantu kamu untuk membuat jadwal kuliah, jadwal mabar, jadwal makan, jadwal liga inggris, dan jadwal-jadwal lainnya. Walaupun banyak error, setidaknya kami sudah berusaha semaksimal mungkin.
+            </p>
+
+            <div class="icons">
+              <a href=""><i class="bi bi-whatsapp">+62 857-234-566</i></a>
+              <a href=""><i class="bi bi-envelope">muhamadervin34@gmail.com</i></a
+              >S
+            </div>
+
+            <h6>COPYRIGHT (C) 2021. DESIGN BY NAUVAL</h6>
+          </div>
+          <div class="col-lg-6">
+            <div class="row menu">
+              <div class="col-md-4 mb-3">
+                <h2>Sitemap</h2>
+                <p>Fitur-fitur</p>
+                <p>Harga</p>
+                <p>Testimoni</p>
+                <p>Download</p>
+              </div>
+              <div class="col-md-4 mb-3">
+                <h2>Partner</h2>
+                <p>BWA</p>
+                <p>Hay Academy</p>
+                <p>Dicoding</p>
+                <p>Petani Kode</p>
+              </div>
+              <div class="col-md-4 mb-3">
+                <h2>Tetap Terhubung</h2>
+                <h6>Lihat kami pansos di sosial media berikut :</h6>
+                <div class="icons-medsos">
+                  <img src="images/Media Sosial/facebook.svg" alt="" />
+                  <img src="images/Media Sosial/instagram (1).svg" alt="" />
+                  <img src="images/Media Sosial/twitter.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Footer -->
+
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        slidesPerGroup: 1,
+        loop: true,
+        grabCursor: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        keyboard: {
+          enable: true,
+        },
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
+        },
+        navigation: {
+          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-next",
+        },
+      });
+    </script>
+  </body>
+</html>

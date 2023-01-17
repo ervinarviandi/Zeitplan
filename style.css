@@ -1,0 +1,558 @@
+body {
+  background-color: #fefefe;
+  /* height: 800vh; */
+}
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(139, 138, 138, 0.2);
+  /* border-radius: 5px; */
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.navbar-nav,
+.nav-link {
+  font-weight: 500;
+}
+
+.navbar-nav,
+.nav-link:hover {
+  color: #fe482b !important;
+}
+
+.navbar .tombol {
+  background-color: #fe5e44;
+  color: #ffff;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
+.navbar .tombol:hover {
+  background-color: #fe482b;
+}
+
+.navbar img {
+  margin-left: 10px;
+}
+
+/* AKHIR NAVBAR */
+
+.hero {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero h1 {
+  font-weight: 700;
+  margin-top: 120px;
+  color: #0e144a;
+}
+
+.hero p {
+  margin-top: 40px;
+}
+
+.hero .tombol {
+  margin-top: 20px;
+  background-color: #fe5e44;
+  padding: 15px 45px;
+  color: white;
+  font-weight: 700;
+}
+
+.hero .tomboll {
+  background-color: #ffefec;
+  padding: 15px 45px;
+  margin-top: 20px;
+  margin-left: 7px;
+  color: #fe5e44;
+  font-weight: 700;
+}
+.hero img {
+  margin-top: 70px;
+}
+
+/* Section Articles */
+
+.articles {
+  font-family: "Roboto", sans-serif;
+  margin-top: 120px;
+}
+
+.articles h2 {
+  color: #0e144a;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.articles p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.articles .data-download {
+  display: flex;
+}
+
+.articles .data-download p {
+  font-size: 14px;
+  margin-right: 15px;
+  line-height: 12px;
+}
+
+.articles .data-2 {
+  border-left: 2px solid #fe5e44;
+  padding-left: 10px;
+}
+
+.articles .card {
+  background-color: #fff7f5;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.articles .card:hover {
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+}
+.articles .header {
+  display: flex;
+  align-items: center;
+}
+
+.articles .header img {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #ffd9d2;
+  margin-right: 10px;
+}
+
+.articles .card p {
+  color: rgb(110, 107, 107);
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* SECTION FEATURES */
+.features {
+  font-family: "Roboto", sans-serif;
+  margin-top: 120px;
+}
+
+.features h2 {
+  color: #0e144a;
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.features p {
+  margin: 20px 0 20px 0;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.features .card {
+  border: none;
+}
+
+.features .header {
+  display: flex;
+  align-items: center;
+}
+
+.features .header img {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #ffd9d2;
+  margin-right: 10px;
+}
+
+.features .gambar {
+  margin-top: 90px;
+}
+
+.features .card .card-text {
+  color: rgb(110, 107, 107);
+  font-size: 16px;
+  line-height: 18px;
+  padding-top: 10px;
+}
+/* AKHIR SECTION FEATURES */
+
+/* Akhir  Section Articles */
+
+/* Section Price  */
+
+.price {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff7f5;
+}
+
+.price h6 {
+  color: #fe5e44;
+}
+
+.price h3 {
+  margin-top: 20px;
+  font-size: 32px;
+  color: #0e144a;
+}
+
+.price .card-text {
+  margin-top: 20px;
+}
+.price h2 {
+  color: #0e144a;
+  margin-top: 120px;
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.price p {
+  /* color: rgba(14, 20, 74, 0.5); */
+}
+
+.price .card {
+  margin-top: 20px;
+  border: none;
+  padding: 20px;
+}
+
+.price .list {
+  display: flex;
+  align-items: center;
+}
+
+.price .list-items {
+  display: flex;
+  align-items: center;
+}
+
+.price .list-items p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.price .tombol {
+  background-color: #fe482b;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 16px 48px;
+  border-radius: 6px;
+  display: grid;
+  margin-top: 30px;
+}
+/* Akhir Section Price  */
+
+/* Testimonial 2 */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-slide .card {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.swiper-slide .card figcaption {
+  font-size: 16px;
+}
+
+.swiper-button-prev {
+  color: #fe482b;
+}
+
+.swiper-button-next {
+  color: #fe482b;
+}
+
+.testimonial .swiper .swiper-slide {
+  border-radius: 15px;
+  margin: 10px 0 10px 0;
+}
+
+.testimonial .swiper .card {
+  border-radius: 15px;
+}
+
+/* Akhir Testimonial 2 */
+
+/* Section Testimonial */
+.testimonial {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffefec;
+}
+
+.testimonial h2 {
+  color: #0e144a;
+  margin-top: 120px;
+  line-height: 52px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.testimonial .text-descriptions {
+  color: #b1b0b0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.testimonial .swiper-slide .card {
+  padding-top: 30px;
+}
+
+.testimonial .card {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonial .card:hover {
+  background-color: #fe5e44;
+  transition: all 2s ease-in-out;
+  color: #f7f7f7;
+}
+
+.testimonial .card h5 {
+  color: #0e144a;
+}
+
+.testimonial .card p {
+  /* color: #b1b0b0; */
+  color: #275591;
+  font-size: 16px;
+}
+
+.testimonial .card img {
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+}
+
+.testimonial .card .star .fa {
+  margin-top: 10px;
+  font-size: 32px;
+  font-size: 22px;
+  /* color: red; */
+}
+/* Akhir Section Testimonial */
+
+/* Download Sectino */
+.download {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.download .box {
+  background-color: #ffffff;
+  padding: 2em;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.download h2 {
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+.download p {
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.download .items-download img {
+  margin-right: 5px;
+}
+
+.download .items-download img {
+  font-size: 45px;
+}
+
+.download .box .profile-tumbnails {
+  display: flex;
+  align-items: center;
+  /* margin-right: 5px; */
+}
+
+.download .box .profile-tumbnails h4 {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+.download .box .descriptions p {
+  margin-left: 72px;
+  margin-top: -30px;
+  font-size: 16px;
+}
+
+.download .box .text p {
+  font-size: 16px;
+  line-height: 32px;
+}
+/* Download Sectino */
+
+/* Footer section */
+.footer {
+  font-family: "Roboto", sans-serif;
+}
+
+.footer img {
+  margin-top: 50px;
+}
+
+.footer .text-base {
+  margin-top: 20px;
+}
+
+.footer h6 {
+  margin-top: 20px;
+}
+
+.footer h2 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footer .menu p:hover {
+  color: #fe482b;
+  cursor: pointer;
+  /* font-weight: 500; */
+}
+
+.footer .icons-medsos {
+  margin-top: -40px;
+}
+
+.footer .icons-medsos img {
+  margin-right: 10px;
+  padding: 4px;
+  background-color: #ffd9d2;
+  border-radius: 10px;
+}
+
+.footer .icons-medsos img:hover {
+  background-color: #0e144a;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.footer .icons .bi {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
+/* Akhir Footer section */
+
+/* MOBILE VERSION */
+
+@media (max-width: 992px) {
+  /* Hero */
+
+  .hero img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    display: grid;
+  }
+
+  .hero a {
+    display: grid;
+  }
+
+  /* Akhir Hero */
+
+  /* Articles  */
+
+  .articles .card {
+    margin-top: 40px;
+  }
+
+  .articles .card:hover {
+    transform: none;
+    transition: none;
+  }
+  /* Akhir Articles */
+
+  /* features */
+  .features .gambar {
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    margin: auto;
+    display: grid;
+  }
+  /* Akhir features */
+
+  /* Price */
+  .price .card {
+    width: 100%;
+  }
+  /* Akhir Price */
+
+  /* Download section */
+  .download {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .download .box .text {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .download .items-download img {
+    width: 120px;
+  }
+  /* Akhir Download section */
+
+  /* Testimonial section */
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .swiper-button-next {
+    display: none;
+  }
+  /* Akhir Testimonial section */
+
+  .download .box .descriptions p {
+    display: none;
+  }
+}
